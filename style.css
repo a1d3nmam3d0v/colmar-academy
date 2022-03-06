@@ -2,11 +2,15 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-weight: unset;
+	font-family: 'Cantarell', sans-serif;
 }
 
 a {
 	text-decoration: none;
+}
+
+h2 {
+	font-size: px;
 }
 
 header {
@@ -19,12 +23,12 @@ header {
 	display: fixed;
 	z-index: 10;
 	width: 100%;
-	border-bottom: 1px solid black;
+	border-bottom: 5px solid black;
 }
 
 .logo {
 	height: 32px;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 }
 
@@ -33,12 +37,15 @@ header {
 }
 
 .logo h1 {
-	font-family: 'Cantarell', sans-serif;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: gray;
+	font-weight: unset;
 }
 
 .logo .bold {
+	font-size: 1.5rem;
+
 	font-weight: 700;
 	color: black;
 }
@@ -58,19 +65,73 @@ nav ul li {
 
 nav a {
 	color: black;
-	font-family: 'Cantarell', sans-serif;
-	font-size: 20px;
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 946px) {
 	.bold,
 	.logo > h1,
 	nav > ul > li > a {
-		font-size: smaller;
+		font-size: 0.99em;
 		white-space: nowrap;
+		font-weight:unset;
+	}
+	nav a {
+		text-rendering: optimizeLegibility;
 	}
 
 	.logo {
 		max-width: 100%;
 	}
+
+	.logo h1 {
+		text-rendering: optimizeLegibility;
+	}
+	nav ul li {
+		margin-left: 3px;
+	}
+
+	header {
+		padding: 0;
+	}
+}
+
+.main-container {
+	display: flex;
+	align-items: center;
+	background-color: lightgray;
+}
+
+main img {
+	max-width: 100%;
+}
+
+.main-banner {
+	flex-basis: 60%;
+	padding: 32px 24px;
+}
+
+.main-text {
+	padding-left: 24px;
+	width: 30%;
+}
+
+h2 {
+	font-size: 3.5rem;
+	line-height: 0.8;
+	font-weight:700;
+	margin-bottom: 10%;
+}
+
+h3 {
+	font-size: 1.6rem;
+	line-height: 0.9;
+	margin-bottom: 10%;
+}
+
+button {
+	width: 80%;
+	padding: 8px 0;
+	font-size: 18px;
 }

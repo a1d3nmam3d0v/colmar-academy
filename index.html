@@ -1,113 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colmar Academy</title>
-    <link rel="stylesheet" href="style.css" class="css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Header -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Colmar Academy</title>
+        <link rel="icon" href="images/ic-logo-white.svg" sizes="any" type="image/svg+xml" />
+        <link rel="stylesheet" href="style.css" class="css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
 
-    <header>
-      <div class="logo">
-        <img class="icon" src="images\ic-logo.svg" alt="Comar Academy logo" />
-        <span class="name bold">Colmar</span>
-        <span class="name">Academy</span>
-      </div>
-      <nav class="desktop">
-        <ul>
-          <li><a href="#">On campus</a></li>
-          <li><a href="#">Online</a></li>
-          <li><a href="#">For companies</a></li>
-          <li><a href="#">Sign in</a></li>
-        </ul>
-      </nav>
-      <nav class="mobile">
-        <a href="#"><img src="images\ic-logo.svg" /></a>
-        <a href="#"><img src="images\ic-on-campus.svg" /></a>
-        <a href="#"><img src="images\ic-online.svg" /></a>
-        <a href="#"><img src="images\ic-login.svg" /></a>
-      </nav>
-    </header>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header -->
 
-    <!-- Main -->
-
-    <main>
-      <!-- Landing Banner -->
-
-      <section class="landing">
-        <div class="container">
-          <div class="banner">
-            <img src="images/banner.jpg" alt="Students outside studying" />
-          </div>
-          <div class="banner-text">
-            <h1>Learn something new everyday</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-            <div>
-              <button class="cta-button" onclick="window.location.href='index.html'">
-                Start here
-              </button>
+        <header>
+            <div class="logo desktop">
+                <img class="icon" src="images\ic-logo.svg" alt="Comar Academy logo" />
+                <span class="name bold">Colmar</span>
+                <span class="name">Academy</span>
             </div>
-          </div>
-        </div>
-      </section>
+            <nav class="desktop">
+                <ul>
+                    <li><a href="#">On campus</a></li>
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">For companies</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </nav>
+            <nav class="mobile">
+                <a href="#"><img src="images\ic-logo.svg" /></a>
+                <a href="#"><img src="images\ic-on-campus.svg" /></a>
+                <a href="#"><img src="images\ic-online.svg" /></a>
+                <a href="#"><img src="images\ic-login.svg" /></a>
+            </nav>
+        </header>
 
-      <!-- Information -->
+        <!-- Main -->
 
-      <section class="information">
-        <div class="info-content dt">
-          <img src="images/information-main.jpg" alt="Man reading a book" />
-          <div class="quote">
-            <h2>It doesn't hurt to keep practicing</h2>
-            <figure>
-              <blockquote>
-                "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec
-                consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna
-                laoreet, efficitur dolor consequat, tristique ligula."
-              </blockquote>
-              <figcaption>
-                Emanuel, Sr Strategist at
-                <cite>Hiring.com</cite>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="schedule">
-          <div class="event">
-            <img class="thumbnail mobile" src="images\information-orientation-mobile.jpg" />
-            <img class="thumbnail dt" src="images\information-orientation.jpg" />
-            <div class="info">
-              <h3>Orientation date</h3>
-              <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-              <a href="#"><span class="link">Read more</span></a>
-            </div>
-          </div>
-          <div class="event">
-            <img class="thumbnail mobile" src="images\information-campus-mobile.jpg" />
-            <img class="thumbnail dt" src="images\information-campus.jpg" />
-            <div class="info">
-              <h3>Our campus</h3>
-              <p>Find out which campus is close by you</p>
-              <a href="#"><span class="link">Read more</span></a>
-            </div>
-          </div>
-          <div class="gray event">
-            <img class="thumbnail mobile" src="images\information-guest-lecture-mobile.jpg" />
-            <img class="thumbnail dt" src="images\information-guest-lecture.jpg" />
-            <div class="info">
-              <h3>Our guest lecture</h3>
-              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-              <a href="#"><span class="link">Read more</span></a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+        <main>
+            <!-- Landing Banner -->
+            <section class="start">
+                <div class="container">
+                    <div class="banner">
+                        <img src="images/banner.jpg" alt="Students outside studying" />
+                    </div>
+                    <div class="banner-text">
+                        <h1>Learn something new everyday</h1>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <button class="cta-button" onclick="window.location.href='index.html'">
+                            Start here
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Information section -->
+
+            <section class="information">
+                <div class="content desktop">
+                    <img src="images/information-main.jpg" alt="Man reading a book" />
+                    <div class="sub-banner-text">
+                        <h2>It doesn't hurt to keep practicing</h2>
+                        <figure>
+                            <blockquote>
+                                "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+                                commodo lectus, nec consequat neque. Sed non accumsan urna.
+                                Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+                                dolor consequat, tristique ligula."
+                            </blockquote>
+                            <figcaption>Emanuel, Sr Strategist at Hiring.com</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Events side menu -->
+
+                <div class="side-info">
+                    <div class="event">
+                        <img
+                            class="thumbnail mobile"
+                            src="images\information-orientation-mobile.jpg"
+                        />
+                        <img class="thumbnail desktop" src="images\information-orientation.jpg" />
+                        <div class="event-details">
+                            <h4>Orientation date</h4>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a class="link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <img class="thumbnail mobile" src="images\information-campus-mobile.jpg" />
+                        <img class="thumbnail desktop" src="images\information-campus.jpg" />
+                        <div class="event-details">
+                            <h4>Our campus</h4>
+                            <p>Find out which campus is close by you</p>
+                            <a class="link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="event bgcolor">
+                        <img
+                            class="thumbnail mobile"
+                            src="images\information-guest-lecture-mobile.jpg"
+                        />
+                        <img class="thumbnail desktop" src="images\information-guest-lecture.jpg" />
+                        <div class="event-details">
+                            <h4>Our guest lecture</h4>
+                            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                            <a class="link" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Learning (courses) section -->
+
+            <section class="learning">
+                <h2><span class="title">Start learning</span></h2>
+                <div class="course-cards">
+                    <div class="course-card">
+                        <img src="images/course-software.jpg" />
+                        <div class="course-text">
+                            <p class="course-name">Software engineering</p>
+                            <p>Courses</p>
+                            <p>Web Development, Mobile Development, iOT, APIs</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <img src="images/course-computer-art.jpg" />
+                        <div class="course-text">
+                            <p class="course-name">Computer art</p>
+                            <p>Courses</p>
+                            <p>
+                                Imaging & Design, Web Design, Motion Graphics & Visual Effecs,
+                                Computer Animation
+                            </p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <img src="images/course-design.jpg" />
+                        <div class="course-text">
+                            <p class="course-name">Design</p>
+                            <p>Courses</p>
+                            <p>User Experience Design, User Research, Visual Design</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <img src="images/course-data.jpg" />
+                        <div class="course-text">
+                            <p class="course-name">Data</p>
+                            <p>Courses</p>
+                            <p>Data Science, Big Data, SQL, Data Visualization</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <img src="images/course-business.jpg" />
+                        <div class="course-text">
+                            <p class="course-name">Business</p>
+                            <p>Courses</p>
+                            <p>Product Development, Business Development, Startup</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <img src="images/course-marketing.jpg" />
+                        <div class="course-text">
+                            <p class="course-name">Marketing</p>
+                            <p>COURSES</p>
+                            <p>Analytics, Content Marketing, Mobile Marketing</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Thesis exhibit -->
+            <section class="thesis">
+                <div class="content">
+                    <h2><span class="title">Thesis exhibit</span></h2>
+                    <video controls>
+                        <source src="videos/thesis.mp4" type="video/mp4" />
+                    </video>
+                    <div class="sub-banner-text">
+                        <h2>Reimagine urban</h2>
+                        <blockquote>
+                            "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
+                            lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed
+                            consequat ex. Etiam eget manga laoreet, efficitur dolor consequat,
+                            tristique ligula."
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="side-info">
+                    <div class="gallery bgcolor">
+                        <img class="thumbnail" src="images/thesis-fisma.jpg" />
+                        <h4>Fisma: Design and Prototype</h4>
+                        <p>Designer showcase of new prototype product</p>
+                    </div>
+                    <div class="gallery">
+                        <img class="thumbnail" src="images/thesis-now-and-then.jpg" />
+                        <h4>Now and then</h4>
+                        <p>Research study about New York</p>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <li>
+                    <p class="copyright">&copy; Colmar Academy. All rights reserved.</p>
+                </li>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </footer>
+        </main>
+    </body>
 </html>

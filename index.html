@@ -8,14 +8,10 @@
         <link rel="icon" href="images/ic-logo-white.svg" sizes="any" type="image/svg+xml" />
         <link rel="stylesheet" href="style.css" class="css" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;300;400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
             rel="stylesheet"
         />
-
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet"
-        />
+        <link rel="stylesheet" href="https://use.typekit.net/tgf4tsl.css" />
     </head>
     <body>
         <!-- Header -->
@@ -47,13 +43,13 @@
         <main>
             <!-- Landing Banner -->
             <section class="start">
-                <div class="container">
+                <div class="flex-container">
                     <div class="banner">
                         <img src="images/banner.jpg" alt="Students outside studying" />
                     </div>
                     <div class="banner-text">
                         <h1>Learn something new everyday</h1>
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <button class="cta-button" onclick="window.location.href='index.html'">
                             Start here
                         </button>
@@ -122,7 +118,7 @@
             <!-- Learning (courses) section -->
 
             <section class="learning">
-                <h2><span class="title">Start learning</span></h2>
+                <h2 class="title">Start learning</h2>
                 <div class="course-cards">
                     <div class="course-card">
                         <img src="images/course-software.jpg" />
@@ -177,11 +173,11 @@
                     </div>
                 </div>
             </section>
-
             <!-- Thesis exhibit -->
             <section class="thesis">
+                <!-- <span class="title">Thesis exhibit</span> -->
+                <!-- <h2 class="title">Thesis exhibit</h2> -->
                 <div class="content">
-                    <h2><span class="title">Thesis exhibit</span></h2>
                     <video controls>
                         <source src="videos/thesis.mp4" type="video/mp4" />
                     </video>
@@ -195,20 +191,26 @@
                         </blockquote>
                     </div>
                 </div>
-
                 <div class="side-info">
-                    <div class="gallery bgcolor">
+                    <div class="event bgcolor">
                         <img class="thumbnail" src="images/thesis-fisma.jpg" />
-                        <h4>Fisma: Design and Prototype</h4>
-                        <p>Designer showcase of new prototype product</p>
+                        <div class="event-details">
+                            <h4>Fisma: Design and Prototype</h4>
+                            <p>Designer showcase of new prototype product</p>
+                        </div>
                     </div>
-                    <div class="gallery">
+                    <div class="event">
                         <img class="thumbnail" src="images/thesis-now-and-then.jpg" />
-                        <h4>Now and then</h4>
-                        <p>Research study about New York</p>
+                        <div class="event-details">
+                            <h4>Now and then</h4>
+                            <p>Research study about New York</p>
+                        </div>
                     </div>
                 </div>
             </section>
+
+            <!-- footer -->
+
             <footer>
                 <li>
                     <p class="copyright">&copy; Colmar Academy. All rights reserved.</p>

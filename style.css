@@ -38,19 +38,19 @@ video {
 }
 
 h1 {
-    font-size: 2.7rem;
-}
-
-h2 {
     font-size: 2.5rem;
 }
 
+h2 {
+    font-size: 2.1rem;
+}
+
 h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .title {
@@ -98,6 +98,7 @@ header {
 
 .nav-links li:hover {
     background-color: yellow;
+    letter-spacing: 2px;
 }
 
 /* mobile 
@@ -144,29 +145,33 @@ main banner section */
 
 .banner .content-right h1 {
     line-height: 0.8;
-    width: 80%;
 }
 
 .banner .content-right p {
     font-size: 1.3rem;
     margin: 1rem 0;
-    font-weight: 500;
+    font-weight: 700;
 }
+
+    .button-wrapper {
+        text-align: center;
+    }
 
 .cta-button {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 5rem;
+    padding: 0.75rem 5rem;
     border-radius: 5px;
     display: inline-block;
     border: none;
-    background-color: #4a4a4a;
+    background-color: #3a3a3a;
 }
 
 .cta-button:hover {
     color: yellow;
+    background-color: #4a4a4a;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 /* mobile
@@ -184,16 +189,14 @@ main banner section */
     }
 
     .banner .content-right {
-        padding: 1rem 2rem;
+        padding: 1.5rem;
     }
 
     .cta-button {
-        margin: 1rem 0;
+        margin: 0.5rem 0 1rem 0;
+        width: 60%;
     }
 
-    .button-wrapper {
-        text-align: center;
-    }
 }
 
 /* desktop
@@ -229,9 +232,10 @@ figcaption {
 }
 
 .event:hover {
-    background-color: yellow;
-    border: yellow 10px solid;
-    outline: yellow 5px solid;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    /* background-color: yellow; */
+    /* border: yellow 10px solid; */
+    /* outline: yellow 5px solid; */
 }
 
 .thumbnail {
@@ -241,6 +245,8 @@ figcaption {
     height: auto;
     padding-right: 1rem;
 }
+
+
 
 .event-details {
     display: flex;
@@ -252,11 +258,11 @@ figcaption {
 
 .event-details p {
     margin: 0.5rem 0;
-    font-size: 1.1rem;
 }
 
 .link {
     color: #0067dc;
+    font-weight: 500;
 }
 
 .link:hover {
@@ -326,26 +332,22 @@ learning section */
 }
 
 .course-name {
-    font-weight: 700;
-    font-size: 1.6rem;
+    font-weight: 600;
+    font-size: 1.7rem;
 }
 
 .course-text {
-    height: auto;
-    padding: 1rem 1rem 1.5rem 1rem;
+    padding: 1rem 1rem .5rem 1rem;
     background-color: white;
-    font-family: p22-underground, sans-serif;
 }
 
 .course-text p:nth-child(2) {
     margin: 1rem 0;
-    font-size: 1.3rem;
-    font-family: p22-underground-pc, sans-serif;
+    font-size: 1.2rem;
 }
 
 .course-text p:nth-child(3) {
     font-size: 1.2rem;
-    font-family: p22-underground, sans-serif;
     height: 3.5rem;
 }
 
@@ -387,9 +389,10 @@ learning section */
 
     .course-text:hover {
         background-color: yellow;
-        color: #0067dc;
+        color: black;
         font-weight: 900;
         letter-spacing: 1.5px;
+        letter-spacing: 3px;
     }
 }
 

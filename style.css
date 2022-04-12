@@ -99,6 +99,7 @@ header {
 .nav-links li:hover {
     background-color: yellow;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 
 /* mobile 
@@ -153,10 +154,6 @@ main banner section */
     font-weight: 700;
 }
 
-.button-wrapper {
-    text-align: center;
-}
-
 .cta-button {
     color: white;
     text-decoration: none;
@@ -194,7 +191,10 @@ main banner section */
 
     .cta-button {
         margin: 0.5rem 0 0.5rem 0;
-        /* min-width: 60%; */
+    }
+
+    .button-wrapper {
+        text-align: center;
     }
 }
 
@@ -239,7 +239,7 @@ figcaption {
 }
 
 .thumbnail {
-    align-self: center;
+    align-self: flex-start;
     width: 35%;
     min-width: 120px;
     height: auto;
@@ -283,7 +283,6 @@ information section */
     .thumbnail {
         width: 100%;
         padding: 0.5rem 1rem;
-        margin: 0;
     }
 
     .content-right {
@@ -296,19 +295,16 @@ information section */
     }
 
     .event:hover {
+        background: unset;
+        border: unset;
+        outline: unset;
+        font-weight: unset;
         box-shadow: unset;
     }
 
     .event-details {
         padding: 1rem 2rem;
         width: unset;
-    }
-
-    .event:hover {
-        background: unset;
-        border: unset;
-        outline: unset;
-        font-weight: unset;
     }
 }
 
@@ -405,6 +401,7 @@ Thesis exhibit */
 .thesis {
     padding: 2rem 0;
 }
+
 .thesis .container {
     background-color: white;
 }
@@ -414,6 +411,10 @@ Thesis exhibit */
     .thesis .sub-banner-text,
     .thesis .content-right {
         display: none;
+    }
+
+    .thesis .title {
+        padding-bottom: 1rem;
     }
 }
 
@@ -449,6 +450,12 @@ footer {
 
 .terms-and-policy > * {
     margin-left: 1rem;
+}
+
+.terms-and-policy > *:hover {
+    background-color: yellow;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 /* mobile 

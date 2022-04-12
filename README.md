@@ -1,5 +1,4 @@
 # colmar-academy
-This is my capstone for Code Academy's Build a Website course.<br>
-The project was to make a landing page for a fictional school, Colmar Academy.<br>
-I was provided a design spec and the images, and did the coding from scratch.<br>
-The page is responsive for both desktop and mobile.
+This is the capstone for Code Academy's Build a Website course.<br>
+For this project I was given a design spec and images to use in designing a landing page for a fictional school, Colmar Academy.<br>
+The coding is from scratch and the page is responsive for both desktop and mobile.

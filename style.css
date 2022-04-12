@@ -233,9 +233,6 @@ figcaption {
 
 .event:hover {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    /* background-color: yellow; */
-    /* border: yellow 10px solid; */
-    /* outline: yellow 5px solid; */
 }
 
 .thumbnail {
@@ -295,6 +292,10 @@ information section */
     .event {
         flex-direction: column;
     }
+
+.event:hover{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
 
     .event-details {
         padding: 1rem 2rem;
